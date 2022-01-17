@@ -1,0 +1,130 @@
+.demoDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #181818;
+    color: white;
+
+    h1 {
+        font-size: 5em;
+        font-weight: 500;
+    }
+
+    .startDiv {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 100px;
+
+        p {
+            font-size: 1.2em;
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        button {
+            background-color:white;
+            color: black;
+            padding: 20px 40px;
+            border-radius: 50px;
+            border: none;
+            box-sizing: border-box;
+            border: 1px solid white;
+            font-weight: bold;
+            font-size: 2em;
+
+            &:hover {
+                cursor: pointer;
+                background-color: rgb(211, 211, 211);
+            }
+        }
+    }
+
+    .timeUpDiv{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 100px;
+
+        .label {
+            margin: 10px;
+        }
+
+        form {
+            margin: 50px;
+            input {
+                padding: 10px 20px;
+                border-radius: 50px 0 0 50px;
+                border: 1px solid white;
+                background-color: transparent;
+                color: white;
+                box-sizing: border-box;
+                outline: none;
+            }
+            button {
+                background-color:white;
+                color: black;
+                padding: 10px 20px;
+                border-radius: 0 50px 50px 0;
+                border: none;
+                box-sizing: border-box;
+                border: 1px solid white;
+                font-weight: bold;
+            }
+        }
+        button {
+            background-color:white;
+            color: black;
+            padding: 10px 20px;
+            border-radius: 50px;
+            border: none;
+            box-sizing: border-box;
+            border: 1px solid white;
+            font-weight: bold;
+            
+            &:hover {
+                cursor: pointer;
+                background-color: rgb(211, 211, 211);
+            }
+        }
+    }
+    .resultsDiv {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 100px;
+
+        .resultLabel {
+            padding: 10px 20px;
+            border-radius: 50px;
+            margin: 10px;
+        }
+
+        .green {
+            background-color: rgba(0, 128, 0, 0.075);
+            border: 1px solid  green;
+        }
+        .red {
+                background-color: rgba(255, 0, 0, 0.096);
+                border: 1px solid  red;
+            }
+        button {
+            background-color:white;
+            color: black;
+            padding: 10px 20px;
+            border-radius: 50px;
+            border: none;
+            box-sizing: border-box;
+            border: 1px solid white;
+            font-weight: bold;
+            margin-top: 50px;
+            
+            &:hover {
+                cursor: pointer;
+                background-color: rgb(211, 211, 211);
+            }
+        }
+    }
+}
