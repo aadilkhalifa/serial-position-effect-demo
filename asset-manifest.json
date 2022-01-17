@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/serial-position-effect-demo/static/css/main.f28b412a.css",
+    "main.js": "/serial-position-effect-demo/static/js/main.e6a1bfc9.js",
+    "static/js/787.20423435.chunk.js": "/serial-position-effect-demo/static/js/787.20423435.chunk.js",
+    "index.html": "/serial-position-effect-demo/index.html",
+    "main.f28b412a.css.map": "/serial-position-effect-demo/static/css/main.f28b412a.css.map",
+    "main.e6a1bfc9.js.map": "/serial-position-effect-demo/static/js/main.e6a1bfc9.js.map",
+    "787.20423435.chunk.js.map": "/serial-position-effect-demo/static/js/787.20423435.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f28b412a.css",
+    "static/js/main.e6a1bfc9.js"
+  ]
+}
